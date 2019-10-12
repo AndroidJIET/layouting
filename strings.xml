@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SignUp</string>
+    <string name="forgetpassword">Forget password?</string>
+    <string name="login">Log In</string>
+    <string name="needanaccount">Need an account ?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>
