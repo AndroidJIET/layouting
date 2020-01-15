@@ -1,0 +1,6 @@
+ADD ALL THE DEPENDENCY YOU HAVE USED IN YOUR WORK HERE
+
+/*
+Dependency of lottie animation for loading bar animation
+/*
+implementation 'com.airbnb.android:lottie:3.3.1'
