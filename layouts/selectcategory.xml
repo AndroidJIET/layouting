@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sethierarchysinglenodelayouttextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="18dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/roundtextview"
+        android:padding="8dp"
+        android:text="                  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <ImageButton
+        android:id="@+id/sethierarchysinglenodelayouttextViewimagebutton"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/ic_close"
+        app:layout_constraintBottom_toTopOf="@+id/sethierarchysinglenodelayouttextView"
+        app:layout_constraintEnd_toEndOf="@+id/sethierarchysinglenodelayouttextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/sethierarchysinglenodelayouttextView"
+        app:layout_constraintTop_toTopOf="@+id/sethierarchysinglenodelayouttextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:src="@drawable/ic_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sethierarchysinglenodelayouttextView"
+        app:layout_constraintStart_toStartOf="@+id/sethierarchysinglenodelayouttextView"
+        app:layout_constraintTop_toBottomOf="@+id/sethierarchysinglenodelayouttextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
