@@ -1,7 +1,12 @@
 <resources>
-    <string name="app_name">generateId</string>
     <string name="finish">Finish</string>
     <string name="addpost">Add post</string>
     <string name="clear">Clear</string>
     <string name="next">Next</string>
+    <string name="app_name">Grievance system</string>
+    <string name="forgetpassword">Forget password?</string>
+    <string name="login">Log In</string>
+    <string name="needanaccount">Need an account ?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>
