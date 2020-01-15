@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">generateId</string>
+    <string name="finish">Finish</string>
+    <string name="addpost">Add post</string>
+    <string name="clear">Clear</string>
+    <string name="next">Next</string>
+</resources>
